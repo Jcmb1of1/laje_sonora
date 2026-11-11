@@ -124,3 +124,8 @@ h1, h2, h3{
 .botao:hover{
     background: var(--caixa-dagua);
 }
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+}
