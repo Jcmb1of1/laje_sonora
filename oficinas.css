@@ -7,7 +7,7 @@
 :root{
     --concreto: #E2DFD8;
 
-    --concreto-escuro: com a cor #CBC7BE;
+    --concreto-escuro:#CBC7BE;
 
     --tinta: #0F1E3D;
 
@@ -107,6 +107,7 @@ h1, h2, h3{
 
 .rodape-coluna{
     flex: 1;
+    
 }
 
 .rodape h4{
@@ -114,4 +115,91 @@ h1, h2, h3{
     font-size: 28px;
     color: var(--fita);
     margin-bottom: 12px;
+}
+
+.titulo-pagina{
+    font-size: 160px;
+    margin-top: 24px;
+}
+
+.subtitulo-pagina{
+    font-size: 22px;
+    max-width: 640px;
+    margin-top: 16px;
+}
+
+.filtros{
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.filtro{
+    border: 2px solid var(--tinta);
+    padding: 8px 18px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.filtro.ativo{
+    background: var(--tinta);
+    color: var(--branco)    ;
+}
+
+.lista{
+    margin-top: 40px;
+}
+
+.oficina{
+    padding-block: 32px;
+    border-top: 3px solid var(--tinta);
+    display: flex;
+    gap: 40px;
+
+}
+
+.oficina .foto{
+    height: 170px;
+    width: 340px;
+    flex-shrink: 0;
+}
+
+.oficina-texto{
+    flex: 1;
+}
+
+.oficina h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.etiquetas{
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+}
+
+.etiqueta{
+    background: var(--branco);
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.oficina-detalhes{
+    width: 220px;
+    font-size: 15px;
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+}
+
+.oficina-detalhes strong{
+    font-size: 17px;
+}
+
+.oficina-detalhes a{
+    margin-top: 10px;
+    font-weight: 700;
 }
